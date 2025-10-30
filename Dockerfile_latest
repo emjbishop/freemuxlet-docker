@@ -1,7 +1,7 @@
-FROM cumulusprod/popscle:2021.05
+FROM ubuntu:24.04
 
-LABEL org.opencontainers.image.title="freemuxlet"
-LABEL org.opencontainers.image.description="Docker imagef for running freemuxlet. Has popscle, samtools, htslib, bcftools, and bedtools"
+LABEL org.opencontainers.image.title="freemuxlet-prep"
+LABEL org.opencontainers.image.description="Docker image for preparing data for freemuxlet"
 LABEL org.opencontainers.image.version="latest"
 LABEL org.opencontainers.image.authors="ebishop@fredhutch.org"
 LABEL org.opencontainers.image.source=https://github.com/emjbishop/freemuxlet-docker
