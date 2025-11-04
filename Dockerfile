@@ -58,3 +58,4 @@ RUN bgzip --version
 RUN samtools --version
 RUN bcftools --version
 RUN bedtools --version
+RUN popscle --help
