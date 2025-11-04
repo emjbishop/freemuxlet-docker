@@ -1,8 +1,8 @@
 FROM cumulusprod/popscle:2021.05
 
-LABEL org.opencontainers.image.title="freemuxlet-prep"
-LABEL org.opencontainers.image.description="Docker image for preparing data for freemuxlet"
-LABEL org.opencontainers.image.version="1.0"
+LABEL org.opencontainers.image.title="freemuxlet"
+LABEL org.opencontainers.image.description="Image for preparing data for and running freemuxlet"
+LABEL org.opencontainers.image.version="2.0"
 LABEL org.opencontainers.image.authors="ebishop@fredhutch.org"
 LABEL org.opencontainers.image.source=https://github.com/emjbishop/freemuxlet-docker
 LABEL org.opencontainers.image.licenses=MIT
